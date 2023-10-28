@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72c7c5e4-c3ac-49d4-a414-1208c195ad76">
+  <producedTypes>
+    <objectType typeId="a76e479a-d4aa-40cd-9f76-1823fe8cb6e3" valueTypeId="7c5fea02-5e69-4c7e-8e1b-09dea75aac23"/>
+    <refType typeId="eba5cc94-7b92-435a-ac18-c10fae4d2f07" valueTypeId="953430d1-2721-471e-83f4-73db655ee542"/>
+    <selectionType typeId="36333f25-aa11-460a-a7b4-0f90896b97dd" valueTypeId="10d6cf02-bec2-4794-92b1-01af4bcfd37c"/>
+    <listType typeId="844ec9be-704c-495c-b0c1-1cbb5cb8c23c" valueTypeId="ab819e4e-98e5-4a14-a846-a69ca37cb6ba"/>
+    <managerType typeId="32424ae4-b72e-4696-ba26-b66a9e3afd27" valueTypeId="58568c97-bc21-4d35-b8d5-eda51a498452"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТГБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм-боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a50e077e-280c-48e1-a3ea-f47871a9b0d4">
+    <name>ТекстУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст уведомления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

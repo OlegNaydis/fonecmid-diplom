@@ -17,5 +17,6 @@
   <content>CommonModule.СозданиеНаОснованииПовтИсп</content>
   <content>CommonModule.ЗаполнениеОбъектов</content>
   <content>CommonModule.ЗаполнениеОбъектовПереопределяемый</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

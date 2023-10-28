@@ -35,4 +35,5 @@
   <subsystems>УдалениеПомеченныхОбъектов</subsystems>
   <subsystems>УправлениеДоступом</subsystems>
   <subsystems>УправлениеИтогамиИАгрегатами</subsystems>
+  <subsystems>ОтчетОДвиженияхДокумента</subsystems>
 </mdclass:Subsystem>

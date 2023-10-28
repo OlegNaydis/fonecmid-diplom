@@ -15,4 +15,5 @@
   <content>Document.ОплатаПоставщику</content>
   <content>Report.ЗадолженностьПокупателей</content>
   <content>Report.ЗадолженностьПоставщикам</content>
+  <content>AccumulationRegister.ВКМ_РасчетыССотрудниками</content>
 </mdclass:Subsystem>

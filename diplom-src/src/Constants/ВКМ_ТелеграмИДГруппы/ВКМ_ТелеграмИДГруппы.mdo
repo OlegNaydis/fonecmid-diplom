@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="249d67e4-f02e-4aca-a2d8-85cc0a4b0cc9">
+  <producedTypes>
+    <managerType typeId="d38479f4-8b0b-4c99-8254-2cf2d5da0693" valueTypeId="3b1c2ad2-feec-497e-9a95-1375a645be89"/>
+    <valueManagerType typeId="950b1d9f-0992-4b7d-beae-6ebcc5674e63" valueTypeId="e33eba43-a60e-4e41-8fc8-0a948248016b"/>
+    <valueKeyType typeId="ea7f5b04-dfa5-40cd-9b8f-935dc17616ec" valueTypeId="cbc2de23-9bce-474c-a3c3-991eed0437a2"/>
+  </producedTypes>
+  <name>ВКМ_ТелеграмИДГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИД группы телеграм</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
